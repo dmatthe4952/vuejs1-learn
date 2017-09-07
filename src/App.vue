@@ -24,12 +24,7 @@
     data() {
       return {
         quotes: [
-          'This is the first quote to see something.',
-          'This is the second quote.',
-          'This is the third quote.',
-          'This is the fourth quote.',
-          'This is the fifth quote.',
-          'This is the sixth quote.'
+          'This is the first quote to see something.'
         ],
         maxEntries: 10
       }

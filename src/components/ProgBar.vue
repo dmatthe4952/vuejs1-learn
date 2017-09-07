@@ -9,17 +9,12 @@
 <script>
   export default{
     props:  ['quotes'],
-    data: function(){
-      return {
-        boxlength: this.quotes.length
-      }
-    },
     computed: {
       cBoxLength: function(){
-        return {width: this.boxlength * 10 + '%'}
+        return {width: this.quotes.length * 10 + '%'}
       },
       boxText: function(){
-        return this.boxlength + "/10"
+        return this.quotes.length + "/10"
       }
     }
   }
